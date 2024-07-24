@@ -2,8 +2,7 @@
 time_a <- Sys.time()
 
 
-# Load Libraries
-library(tesseract)
+
 
 # check to see if a finished data folder exists
 # and create it if it doesn't

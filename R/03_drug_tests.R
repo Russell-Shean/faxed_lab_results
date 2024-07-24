@@ -2,10 +2,6 @@
 
 
 
-# libraries
-library(stringr)
-library(lubridate)
-
 # load in fax data
 fax_table <- read.csv("./finished_data/faxes.csv")
 
