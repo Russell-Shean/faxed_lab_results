@@ -1,0 +1,33 @@
+"file_name","file_text","patient_name","date_of_birth","gender","patient_phone","specimen_number","collection_date","protime_result_value","protime_result_code","new_file_name"
+"./data/raw_data/apex_lab.pdf","Apex Laboratory, Inc.
+Home Visit Phiebotomy and Laboratory Testing
+110 Central Ave. Farmingdale NY 11735
+601 N Congress Ave #434 Delray Beach FL 33445
+P 561.279.1852 F 561.279.1853
+FINAL REPORT
+Patient: PATIENT, TEST Specimen: A122077706
+DOB: 01/01/1300 Collected: 07/25/2012 12:01 pm
+Gender: M Received: 07/25/2012 4:00 pm
+Phone: 5612791852 Ordering Physician: APEX
+TO: Dr. DELRAY DOCTOR APEX
+601 N. CONGRESS AVENUE $3434
+DELRAY BEACH , FL 33445
+PROTIME Resulted: 07/25/2012 4:48:53 PM
+TEST RESULT ABN UNITS REFERENCE RANGE
+PROTIME 25.00 H SECS 90-115
+RANE Se a 5 eae ae a MR aR EE IPO ee ROP eM es a en ere RN
+INR 250 SEE BELOW
+2.0-3.0: FOR TREATMENT OF VENOUS THROMBOSIS,PULMONARY EMBOLISM, SYSTEMIC EMBOLISM, TISSUE HEART VALVE. ACUTE
+MYOCARDIAL INFARCTION AND ATRIAL FI8. 2.5-3.5: FOR RECURRENT EMBOLISM, MECHANICAL HEART VALVES AND
+ANTIPHOSPHOLIPID ANTIBODIES.
+* Home Visit performed by Apex Laboratory, Inc. - Delray Beach, FL
+- End of Report -
+Current Order Details: Next Visit. Frequency: One Time Only: End Date: 07/25/2012
+To order a medically necessary home visit, extend or make changes to this order fll out the box below and fax to: 561-279-1853
+START DATE VISIT FREQUENCY END DATE TESTIS DIAGNOSIS _
+The comients of Us message and any attachments may Contam CONFIDENTIAL anfonmanon including PROTECTED HEALTH INFORMATION (PHi) that &
+intended gor dhe rectprem only. If you are mot the tnsended recipient, ommediaiecly notify de sender and DELETE DESTROY tus message ataachmenss
+lor: Mr. Anthony T. Garofalo
+. ce 1 iti | me oe |
+= Page 1 of 1
+","patient, test",1300-01-01,"m","5612791852","a122077706",2012-07-25,"25.00","h","/protime_h_patient, test_1300-01-01_collect_2012-07-25"

@@ -1,20 +1,14 @@
 # Apex
 
 
-
-# load in fax data
-fax_table <- read.csv("./finished_data/faxes.csv")
-
-
-
 # find the subset of faxes from Apex
 
-apex_index <- fax_table$file_text %>% 
+apex_index <- extracted_raw_text$file_text %>% 
                str_to_lower() %>%
                str_detect("apex")
 
 
-apex <- fax_table[apex_index,]
+apex <- extracted_raw_text[apex_index,]
 
 # extract variables ---------------------------------------------
 
@@ -89,9 +83,11 @@ apex$protime_result_code <- apex$file_text %>%
 # check to see if  folder exists
 # and create it if it doesn't
 
-if( !dir.exists("./finished_data/apex") ){
+
+
+if( !dir.exists(apex_folder) ){
   
-  dir.create("./finished_data/apex")
+  dir.create(apex_folder)
   
 }
 
@@ -99,7 +95,7 @@ if( !dir.exists("./finished_data/apex") ){
 
 ## create a new file name with key data points ----------------------------
 
-apex$new_file_name <- paste0("protime_",
+apex$new_file_name <- paste0("/protime_",
                              apex$protime_result_code,
                              "_",
                              apex$patient_name,
@@ -111,10 +107,10 @@ apex$new_file_name <- paste0("protime_",
 ## move files -------------------------------------------------------
 
 file.copy(from = apex$file_name,
-          to = paste0("./finished_data/apex/",
+          to = paste0(apex_folder,
                       apex$new_file_name))
 
 
 write.csv(apex,
-          file = "./finished_data/apex_results.csv",
+          file = paste0(apex_folder, "/apex_results.csv"),
           row.names = FALSE)

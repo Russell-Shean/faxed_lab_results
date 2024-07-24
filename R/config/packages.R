@@ -13,3 +13,4 @@ pacman::p_load(tesseract,   # For optical character reader function
                lubridate,  # For working with dates
                stringr)    # for manipulating strings + regular expressions
 
+cat("Finished loading packages\n")
